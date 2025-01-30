@@ -1,16 +1,31 @@
-# dream_lab_app
+# Тестовый проект - DreamLab
 
-A new Flutter project.
+Структура проекта
 
-## Getting Started
+<img width="300" alt="Снимок экрана 2025-01-30 в 19 05 40" src="https://github.com/user-attachments/assets/1feffecd-1733-4c8d-b874-5b17110b1674" />
 
-This project is a starting point for a Flutter application.
+Функциональность:
 
-A few resources to get you started if this is your first Flutter project:
+# Экран №1:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Начальный экран где расположены две кнопки
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1)Все посты
+
+2)Искать посты
+
+# Экран №2:
+
+Отображение списка всех постов.Отображение список постов с поддержкой пагинации. Посты подгружаются постепенно, например, при прокрутке вниз. Это позволяет удобно работать с большим 
+количеством постов и экономить ресурсы. При нажатии на пост открывается экран с детальной информацией.
+
+# Экран №3:
+
+Детальная информация о посте (заголовок title и содержимое body(content)).
+
+# Экран №4:
+
+Поле для ввода ID поста и кнопка "Поиск". После ввода ID и нажатия на кнопку отображается информация о посте(search by id is not working, idk).
+
+
+
